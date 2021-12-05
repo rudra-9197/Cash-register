@@ -1,1 +1,85 @@
+.check-Button {
+  display: inline-block;
+  padding: 10px 30px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #7873c4;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  margin: 8px;
+}
 
+.check-Button:hover {
+  background-color: #3e8e41;
+}
+
+.check-Button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.table {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
+  border: #0a0c0a;
+  border-color: #111113;
+  border-style: solid;
+  color: #150753;
+  background-color: rgb(211, 200, 224);
+  height: 50px;
+  width: 80%;
+}
+.no-Notes {
+  border-style: solid;
+  width: px;
+  border-color: #d9d4f3;
+}
+body {
+  background-color: #f1ebeb;
+  text-align: center;
+  color: blue;
+  
+}
+.input {
+  width: 50%;
+  height: 30px;
+  border: solid;
+  border-color: blue;
+}
+.input:hover {
+  border-color: #3e8e41;
+}
+.cash {
+  width: 50%;
+  height: 30px;
+  border: solid;
+  border-color: blue;
+ 
+}
+.cash:hover{
+    border-color: #3e8e41;
+}
+
+
+.alert {
+  color: red;
+  font-size: larger;
+}
+.notes {
+  color: rgb(20, 20, 20);
+  font-size: larger;
+  color: red;
+}
+label{
+    font-size: xx-large;
+    color: blue;
+}
