@@ -28,8 +28,6 @@
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  margin-left: auto;
-  margin-right: auto;
   border: #0a0c0a;
   border-color: #111113;
   border-style: solid;
@@ -40,17 +38,16 @@
 }
 .no-Notes {
   border-style: solid;
-  width: px;
+ height: 2rem;
   border-color: #d9d4f3;
 }
 body {
   background-color: #f1ebeb;
   text-align: center;
-  color: blue;
-  
+  color: rgb(3, 3, 250); 
 }
 .input {
-  width: 50%;
+  width: 20rem;
   height: 30px;
   border: solid;
   border-color: blue;
@@ -59,7 +56,7 @@ body {
   border-color: #3e8e41;
 }
 .cash {
-  width: 50%;
+  width: 20rem;
   height: 30px;
   border: solid;
   border-color: blue;
@@ -82,4 +79,24 @@ body {
 label{
     font-size: xx-large;
     color: blue;
+}
+
+.footer-list{
+    display: flex;
+    justify-content: center;
+}
+
+.links{
+    display: inline;
+}
+
+img{
+    height: 4rem;
+    width: 4rem;
+}
+
+
+.container{
+    margin: 4rem auto 7rem;
+    text-align: center;
 }

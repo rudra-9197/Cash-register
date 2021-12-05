@@ -7,6 +7,7 @@ var givenNote = document.querySelectorAll(".no-Notes");
 var valueOfNotes = [2000, 500, 200, 100, 50, 20, 10, 1];
 
 function clickerevent() {
+    errorMessage.innerText="";
   if (billAmount.value > 0) {
     if (cashGiven.value >= billAmount.value) {
       changeGiven = cashGiven.value - billAmount.value;
